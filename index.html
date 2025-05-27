@@ -1,0 +1,146 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de HTML</title>
+</head>
+<body>
+
+  <!-- 🔗 MENU DE NAVEGAÇÃO -->
+
+  <nav>
+    <ul>
+       <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🏷️ CABEÇALHOS (Hierarquia de títulos H1 ao H6) -->
+
+  <h1>Cabeçalho nível 1</h1>  
+  <h2>Cabeçalho nível 2</h2>
+  <h3>Cabeçalho nível 3</h3>
+  <h4>Cabeçalho nível 4</h4>
+  <h5>Cabeçalho nível 5</h5>
+  <h6>Cabeçalho nível 6</h6>
+
+  <!-- 📄 PARÁGRAFOS + LINKS -->
+
+  <p>
+    <!-- 🔗 Link externo que abre em nova aba -->
+    <a href="https://www.google.com/" target="_blank">Lorem</a> ipsum dolor sit amet...
+  </p>
+
+  <p>
+    Texto com ênfase usando a tag <em>em</em> (itálico semântico).
+  </p>
+
+  <!-- 🌐 LINK EXTERNO -->
+  <a href="https://www.google.com/" target="_blank"> Google</a>
+
+  <!-- 📊 TABELA DE DADOS -->
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Idade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Felipe Rocha</td>
+        <td>feliperocha@gmail.com</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>Sara Rocha</td>
+        <td>sara@gmail.com</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>Gustavo Rocha</td>
+        <td>gustavo@gmail.com</td>
+        <td>18</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br><hr><br> <!-- 🔹 Linha horizontal para separar seções -->
+
+  <!-- 📝 FORMULÁRIO DE CONTATO -->
+  <form action="form.php" method="POST">
+
+    <!-- 🧍 INPUTS DE TEXTO -->
+    <div>
+      <label>Primeiro Nome:</label>
+      <input type="text" placeholder="Entre seu primeiro Nome">
+    </div>
+
+    <div>
+      <label>Segundo Nome:</label>
+      <input type="text">
+    </div>
+
+    <!-- 📧 CAMPO DE EMAIL -->
+    <div>
+      <label>Email:</label>
+      <input type="email">
+    </div>
+
+    <!-- ⚧️ SELEÇÃO DE GÊNERO -->
+
+    <div>
+      <label>Gênero:</label>
+      <select>
+        <option value="masculino">Masculino</option>  
+        <option value="feminino">Feminino</option>  
+      </select>
+    </div>
+
+    <!-- 📅 DATA DE NASCIMENTO -->
+
+    <div>
+      <label>Data de nascimento:</label>
+      <input type="date">
+    </div>
+
+    <!-- 🔒 SENHA -->
+
+    <div>
+      <label>Senha:</label>
+      <input type="password">
+    </div>
+
+    <!-- 💬 ÁREA DE TEXTO -->
+    <div>
+      <label>Mensagem:</label>
+      <textarea name="Mensagem"></textarea>
+    </div>
+
+    <!-- 🚀 ENVIO DO FORMULÁRIO -->
+    <input type="submit"/>
+
+    <!-- 🔘 BOTÃO EXTRA -->
+    <button>Click me</button>
+
+    <!-- 🖼️ IMAGEM -->
+    <br>
+    <img src="./img/foto.jpg" alt="Imagem de exemplo" width="100" height="50">
+  </form>
+</body>
+</html>
+
+<!-- 💬 CITAÇÃO -->
+
+<blockquote cite="dicasparadevs.com.br">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit...
+</blockquote>
+
+<!-- 🌐 ABREVIAÇÃO COM DICA -->
+
+<p>Eu amo a <abbr title="World Wide Web">WWW</abbr></p>
+
+<!-- 🧑‍🏫 CRÉDITO -->
+ 
+<p> Tutorial feito por <cite>dicasparadevs</cite></p>
